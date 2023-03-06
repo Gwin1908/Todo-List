@@ -1,0 +1,16 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+/* li {
+    font-size: 26px;
+    margin-left: 40rem;
+    margin-bottom: 2rem;
+}  */
+
+
+.active {
+    color: black;
+    cursor: default;
+}

@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    width: 20rem;
+    height: 18rem;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    text-align: center;
+}
+

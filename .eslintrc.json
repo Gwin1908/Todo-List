@@ -1,0 +1,25 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:import/errors", "plugin:import/warnings"],
+    "env": {
+        "browser": true
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "warn",
+        "linebreak-style": 0,
+        "global-require": 0,
+        "eslint linebreak-style": [0, "error", "windows"],
+        "import/prefer-default-export": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/prop-types": "off",
+        "allowNamedFunctions": 0,
+        "no-param-reassign": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": ["node_modules", "src/"]
+            }
+        }
+    }
+}

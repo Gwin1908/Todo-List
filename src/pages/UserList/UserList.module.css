@@ -1,0 +1,26 @@
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.user {
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    height: 7rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background: rgba(44, 133, 210, 0.866);
+}
+
+.user:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.user p {
+    margin-left: 1rem;
+} 

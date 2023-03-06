@@ -1,0 +1,12 @@
+.introDescr {
+    margin: 1rem 10rem;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:visited {
+    color:blue;
+
+}
